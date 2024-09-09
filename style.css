@@ -32,7 +32,7 @@ button:hover {
 }
 
 .modal {
-    width: 70vw;
+    width: 50vw;
     height: 400px;
     position: fixed;
     top: 20%;
@@ -48,5 +48,16 @@ button:hover {
 .modal h1 {
     letter-spacing: 2px;
     color: #000;
+
+}
+
+@media (width < 800px) {
+    .modal {
+        position: fixed;
+        top: 20%;
+        left: 20%;
+        padding: 10px;
+        text-align: center;
+    }
 
 }
